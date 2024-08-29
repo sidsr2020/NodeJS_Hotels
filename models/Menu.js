@@ -15,7 +15,7 @@
 //     },
 //     is_drink:{
 //         type:Boolean,
-//         default:false, 
+//         default:false,
 //     },
 //     ingredients:{
 //         type:[String],
