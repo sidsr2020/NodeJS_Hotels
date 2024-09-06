@@ -25,7 +25,7 @@ app.get('/',function (req, res) {
 const personRoute=require('./routes/personRoute');
 const menuRoute=require('./routes/menuRoute');
 // Use the routers
-app.use('/person',localAuthMiddleware,personRoute);
+app.use('/person',personRoute);
 app.use('/menu',menuRoute);
 app.listen(PORT, () => {
     console.log('listening on port 3000');
